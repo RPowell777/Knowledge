@@ -8,11 +8,21 @@ body {
 }
 
 h1{
+    font-size: 2em;
     text-align: center;
-    padding: 5% 0% 0% 0%;
+    padding: 2% 0% 0% 0%;
 }
 
-ul {
+img{
+    float: left;
+}
+
+p#explain{
+    padding: 0% 25% 0% 2%;
+    font-size: 1.2em;
+}
+
+ul.nav{
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -20,9 +30,14 @@ ul {
     background-color: black;
 }
 
-li {
+li.nav{
     display: inline;
     padding: 0% 7.5%;
+}
+
+.active{
+    background-color: rgb(53, 216, 39);
+    color: black;
 }
 
 li a {
@@ -35,7 +50,6 @@ ul li a:hover {
     background
 }
 
-.active{
-    background-color: rgb(53, 216, 39);
-    color: black;
+ol{
+  clear: left;  
 }
