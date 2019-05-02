@@ -13,8 +13,34 @@ h1{
     padding: 2% 0% 0% 0%;
 }
 
-img{
+hr{
+    clear: both;
+    border: 2px solid rgb(53, 216, 39);
+}
+
+p{
+    text-align: center;
+    font-size: 1.8em;
+    color: cyan;
+    margin: 0;
+    padding: 0% 15% 0% 15%;
+    line-height: 1.6;
+}
+
+p#left {
     float: left;
+    padding: 0% 0% 0% 5%;
+    font-size: 2em;
+}
+
+p.right{
+    float: right;
+    padding: 0% 5% 0% 0%;
+    font-size: 2em;
+}
+
+img{
+    padding: 0% 28% 0% 22%;
 }
 
 p#explain{
@@ -46,10 +72,10 @@ li a {
 }
 
 ul li a:hover {
-    color: black;
+    color: cyan;
     background
 }
 
-ol{
-  clear: left;  
+ul li,p{
+    font-size: 1.2em;
 }
