@@ -1,0 +1,114 @@
+html {
+    background-color: black;
+}
+
+body {
+    color: rgb(53, 216, 39);
+    margin: 0;
+}
+
+h1{
+    font-size: 2em;
+    text-align: center;
+    padding: 2% 0% 0% 0%;
+}
+
+h1#bw{
+    margin: 0;
+}
+
+h2{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h2#float{
+    float: right;
+    padding: 0% 25% 0% 0%;
+}
+
+h2#left{
+    float: left;
+    padding: 0% 0% 0% 25%;
+}
+
+hr{
+    clear: both;
+    border: 2px solid rgb(53, 216, 39);
+}
+
+img{
+    float: left;
+}
+
+p{
+    padding: 1% 25% 0% 25%;
+    text-align: center;
+    font-size: 1.7em;
+    color: cyan;
+    margin: 0;
+}
+
+ul.nav{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: black;
+}
+
+li.nav{
+    display: inline;
+    padding: 0% 7.5%;
+}
+
+.active{
+    background-color: rgb(53, 216, 39);
+    color: black;
+}
+
+li a {
+    display: inline-block;
+    color: rgb(53, 216, 39);
+}
+
+ul li a:hover {
+    color: cyan;
+}
+
+ul li,p{
+    font-size: 1.2em;
+}
+
+ul#mask{
+    list-style-type: none;
+    float: left;
+    padding: 0% 0% 0% 20%;
+}
+
+ul#mask li{
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 1.5em;
+    padding: 5% 0% 0% 0%;
+    color: cyan;
+}
+
+ul#tf{
+    list-style-type: none;
+    float: right;
+    padding: 0% 26.5% 0% 0%;
+}
+
+ul#tf li{
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 1.5em;
+    padding: 10% 0% 0% 0%;
+    color: cyan;
+}
+
+img{
+    padding: 0% 20% 0% 30%;
+    border-radius: 8px;
+}
